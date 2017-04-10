@@ -36,6 +36,10 @@ public class SoDetail implements Serializable {
 
 	@Column(name="SO_PROPERTY_TAGLINE", length=100)
 	private String soPropertyTagline;
+	
+	@Lob
+	@Column(name="SO_PRIMARY_IMAGE")
+	private byte[] soPrimaryImage;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name="UPDATE_DATETIME")
@@ -107,6 +111,16 @@ public class SoDetail implements Serializable {
 
 	public void setSoPropertyTagline(String soPropertyTagline) {
 		this.soPropertyTagline = soPropertyTagline;
+	}
+	
+	
+
+	public byte[] getSoPrimaryImage() {
+		return soPrimaryImage;
+	}
+
+	public void setSoPrimaryImage(byte[] soPrimaryImage) {
+		this.soPrimaryImage = soPrimaryImage;
 	}
 
 	public Date getUpdateDatetime() {
