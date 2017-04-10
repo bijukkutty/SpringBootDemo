@@ -1,6 +1,6 @@
 package demo;
 
-import java.io.Serializable;
+import java.io.Serializable; 
 import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
