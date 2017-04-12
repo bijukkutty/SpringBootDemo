@@ -27,7 +27,6 @@ public class SoImagesDtl implements Serializable {
 	@Column(name="CREATE_USER", length=50)
 	private String createUser;
 
-	@Lob
 	@Column(name="SO_IMAGE")
 	private byte[] soImage;
 

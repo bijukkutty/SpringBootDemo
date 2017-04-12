@@ -37,7 +37,6 @@ public class SoDetail implements Serializable {
 	@Column(name="SO_PROPERTY_TAGLINE", length=100)
 	private String soPropertyTagline;
 	
-	@Lob
 	@Column(name="SO_PRIMARY_IMAGE")
 	private byte[] soPrimaryImage;
 
