@@ -11,7 +11,7 @@ import java.sql.Statement;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 
-public class InsertByteaImage {
+public class InsertByteaImage {/*
 	static final String JDBC_DRIVER = "org.postgresql.Driver";
 	static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
 
@@ -52,11 +52,11 @@ public class InsertByteaImage {
 			ps.executeUpdate();
 			ps.close();
 			fis.close();
-/*			String sql;
+			String sql;
 			sql = "SELECT id, first, last, age FROM Employees";
-			ResultSet rs = stmt.executeQuery(sql);*/
+			ResultSet rs = stmt.executeQuery(sql);
 
-/*			// STEP 5: Extract data from result set
+			// STEP 5: Extract data from result set
 			while (rs.next()) {
 				// Retrieve by column name
 				int id = rs.getInt("id");
@@ -69,7 +69,7 @@ public class InsertByteaImage {
 				System.out.print(", Age: " + age);
 				System.out.print(", First: " + first);
 				System.out.println(", Last: " + last);
-			}*/
+			}
 			// STEP 6: Clean-up environment
 			//rs.close();
 			//stmt.close();
@@ -98,4 +98,4 @@ public class InsertByteaImage {
 
 	}
 
-}
+*/}
